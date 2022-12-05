@@ -1,0 +1,9 @@
+.btn-hover{
+    transition: 0.2s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-color: #070D14;
+    color: #5bc5f4;
+    filter: drop-shadow(0 0 3px #5bc5f4);
+}
