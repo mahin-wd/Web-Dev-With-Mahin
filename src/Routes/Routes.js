@@ -7,7 +7,7 @@ import Projects from "../Components/Pages/Projects/Projects";
 import Skills from "../Components/Pages/Skills/Skills";
 import Main from "../Layout/Main";
 
-export const routes = createBrowserRouter([
+ const routes = createBrowserRouter([
     {
         path: "/",
         element: <Main />,
@@ -38,4 +38,6 @@ export const routes = createBrowserRouter([
             }
         ]
     }
-])
+]);
+
+export default routes;

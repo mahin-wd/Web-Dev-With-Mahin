@@ -1,0 +1,18 @@
+.nav-container {
+    transition: 0.2s ease-in-out;
+}
+
+.nav-container a{
+    transition: 0.1s ease-in-out;
+}
+
+.nav-container a:hover{
+    background-color: #070D14;
+    border-radius: 50px 0 0 50px;
+    letter-spacing: 5px;
+}
+
+.nav-icons{
+    transition: 0.1s ease-in-out;
+}
+
