@@ -7,3 +7,11 @@
     color: #5bc5f4;
     filter: drop-shadow(0 0 3px #5bc5f4);
 }
+
+.image{
+    transition: 0.2s ease-in-out;
+}
+
+.image:hover{
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.63));
+}
