@@ -15,7 +15,7 @@ const Home = () => {
                         <h1 className='2xl:text-9xl xl:text-8xl font-bold text-[#5bc5f4]'>Mahin</h1>
                         <p className='text-gray-300'>I am a front end web developer. I develop the user interface of a website using React Js. </p>
                         <button className='bg-[#5bc5f4] px-5 py-2 mt-5 rounded-lg text-2xl text-[#070D14] font-bold btn-hover'>
-                            <a target="_blank" href="https://drive.google.com/file/d/1bgHsIfV6WKSPliBVCROx5m9fhhg_rwdT/view?usp=sharing">
+                            <a target="_blank" href="https://drive.google.com/file/d/1CbqDXvIFnSG7KNNvH4FFq5Qqex3F2Jro/view">
                                 RESUME
                             </a>
                         </button>
@@ -35,7 +35,7 @@ const Home = () => {
                         </div>
                         <img className='max-w-[500px] w-[250px] lg:w-[400px] xl:top-60 z-10 xl:hidden mx-auto pt-10' src={lgImg} alt="" />
                         <button className='bg-[#5bc5f4] px-5 py-2 mt-5 rounded-lg text-xl text-[#070D14] font-bold btn-hover'>
-                            <a target="_blank" href="https://drive.google.com/file/d/1bgHsIfV6WKSPliBVCROx5m9fhhg_rwdT/view?usp=sharing">
+                            <a target="_blank" href="https://drive.google.com/file/d/1CbqDXvIFnSG7KNNvH4FFq5Qqex3F2Jro/view">
                                 RESUME
                             </a>
                         </button>
