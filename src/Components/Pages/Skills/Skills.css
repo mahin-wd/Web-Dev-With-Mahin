@@ -1,0 +1,94 @@
+.progress-container{
+    height: 20px;
+    width: 300px;
+    border: 2px solid #5bc5f4;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.progress{
+    height:100%;
+    width: 1%;
+    background-color: #5bc5f4;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    animation: progress-anim 1s linear forwards;
+    animation-delay: 1s;
+    margin-right: 10px;
+}
+
+.progress-js{
+    height:100%;
+    width: 1%;
+    background-color: #5bc5f4;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    animation: progress-js 1s linear forwards;
+    animation-delay: 1s;
+    margin-right: 10px;
+}
+
+.progress-react{
+    height:100%;
+    width: 1%;
+    background-color: #5bc5f4;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    animation: progress-react 1s linear forwards;
+    animation-delay: 1s;
+    margin-right: 10px;
+}
+
+.progress-express-mongo{
+    height:100%;
+    width: 1%;
+    background-color: #5bc5f4;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    animation: progress-express-mongo 1s linear forwards;
+    animation-delay: 1s;
+    margin-right: 10px;
+}
+
+.amount{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@keyframes progress-anim {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes progress-js {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes progress-react {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes progress-express-mongo {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 50%;
+    }
+}
