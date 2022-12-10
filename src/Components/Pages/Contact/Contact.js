@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import Typewriter from 'typewriter-effect';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-hot-toast';
 
 const Contact = () => {
 
@@ -14,6 +15,7 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             });
+            toast.success("Message sent successfully!")
             e.target.reset();
     }
     return (
