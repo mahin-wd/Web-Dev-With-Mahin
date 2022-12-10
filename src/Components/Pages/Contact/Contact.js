@@ -37,12 +37,12 @@ const Contact = () => {
 
                 <div className='mb-5'>
                     <label className='block text-start text-2xl font-normal mb-2' htmlFor="">Email</label>
-                    <input className='w-full h-[50px] rounded-xl bg-transparent border-2 border-[#5bc5f4] px-3 py-3' type="text" name="email" placeholder='Email' />
+                    <input className='w-full h-[50px] rounded-xl bg-transparent border-2 border-[#5bc5f4] px-3 py-3' type="text" name="email" placeholder='Email' required/>
                 </div>
 
                 <div className='mb-5'>
                     <label className='block text-start text-2xl font-normal mb-2' htmlFor="">Subject</label>
-                    <input className='w-full h-[50px] rounded-xl bg-transparent border-2 border-[#5bc5f4] px-3 py-3' type="text" name="subject" placeholder='Subject' />
+                    <input className='w-full h-[50px] rounded-xl bg-transparent border-2 border-[#5bc5f4] px-3 py-3' type="text" name="subject" placeholder='Subject' required/>
                 </div>
 
                 <div className='mb-5'>
