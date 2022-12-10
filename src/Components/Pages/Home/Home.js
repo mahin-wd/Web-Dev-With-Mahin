@@ -1,49 +1,58 @@
 import React from 'react';
 import lgImg from '../../../images/photo-01-01.png'
+import Typewriter from 'typewriter-effect';
 import './Home.css'
+import img1 from '../../../images/comfortLife.jpg'
+import img2 from '../../../images/zidansHomeKitchen.jpg'
+import img3 from '../../../images/codeEasy.jpg'
 
-const Home = () => {
-    return (
-        <div>
-            {/* Large devices */}
-            <div className='relative hidden xl:flex'>
-                <img className='max-w-[500px] absolute left-96 xl:top-60 z-10 image' src={lgImg} alt="" />
-                <div className='bg-[#0E1828] 2xl:w-[1200px] xl:w-[700px] md:w-[500px] absolute right-0 h-screen'>
-                    <div className='pt-96 text-start 2xl:ml-[500px] xl:ml-[300px] lg:ml-[200px]'>
-                        <h3 className='text-xl tracking-widest'>Hi There,</h3>
-                        <h2 className='text-4xl mt-5 mb-1'>This is</h2>
-                        <h1 className='2xl:text-9xl xl:text-8xl font-bold text-[#5bc5f4]'>Mahin</h1>
-                        <p className='text-gray-300'>I am a front end web developer. I develop the user interface of a website using React Js. </p>
-                        <button className='bg-[#5bc5f4] px-5 py-2 mt-5 rounded-lg text-2xl text-[#070D14] font-bold btn-hover'>
-                            <a target="_blank" href="https://drive.google.com/file/d/1GTdtR8Gp58cNaQ_KTMKxTfII8mprie78/view?usp=sharing">
-                                RESUME
-                            </a>
-                        </button>
-                    </div>
-                </div>
-            </div>
+const Home = () => (
+    <div>
+        {/* Large devices */}
+        <div className='relative flex flex-col justify-center items-center pt-20'>
+            <div className=' text-center 2xl:ml-[500px] xl:ml-[300px] lg:ml-[200px]'>
+                <h3 className='text-xl tracking-widest'>Hi There,</h3>
+                <h2 className='text-2xl mt-5 mb-1'>I am</h2>
+                <h1 className='name-text 2xl:text-6xl md:text-6xl text-4xl font-bold text-[#5bc5f4]'>
+                    <Typewriter
+                        options={{
+                            strings: ['MD. Mahin Islam Mahi', 'Frontend Web Developer'],
+                            autoStart: true,
+                            loop: true,
+                        }} />
+                </h1>
+                <p className=' text-gray-300 w-2/3 mx-auto'>I am a front end web developer. I develop the user interface of a website using React Js. </p>
 
-            {/* small device */}
-            <div className='px-5'>
-                <div className='relative xl:flex-col-reverse 2xl:hidden lg:ml-60'>
-                    <div className='xl:hidden'>
-                        <div className='pt-40 text-center w-3/4 mx-auto'>
-                            <h3 className='text-xl tracking-widest'>Hi There,</h3>
-                            <h2 className='text-3xl mt-5 mb-1'>This is</h2>
-                            <h1 className='2xl:text-9xl xl:text-8xl text-5xl font-bold text-[#5bc5f4]'>Mahin</h1>
-                            <p className='text-gray-300'>I am a front end web developer. I develop the user interface of a website using React Js. </p>
-                        </div>
-                        <img className='max-w-[500px] w-[250px] lg:w-[400px] xl:top-60 z-10 xl:hidden mx-auto pt-10 image' src={lgImg} alt="" />
-                        <button className='bg-[#5bc5f4] px-5 py-2 mt-5 rounded-lg text-xl text-[#070D14] font-bold btn-hover'>
-                            <a target="_blank" href="https://drive.google.com/file/d/1GTdtR8Gp58cNaQ_KTMKxTfII8mprie78/view?usp=sharing">
-                                RESUME
-                            </a>
-                        </button>
-                    </div>
-                </div>
+                <img className='max-w-[500px] w-[300px] md:w-[500px] mx-auto z-10 image' src={lgImg} alt="" />
+
+                <button className='bg-[#5bc5f4] px-5 py-2 mt-5 rounded-lg text-2xl text-[#070D14] font-bold btn-hover'>
+                    <a target="_blank" href="https://drive.google.com/file/d/1jpki0hJYEvFFJnkei6dfKgnVhfdO6Aaf/view">
+                        RESUME
+                    </a>
+                </button>
             </div>
         </div>
-    );
-};
+
+        {/* Basic Projects */}
+            <h2 className="text-3xl lg:ml-80 mt-40">Projects I have Build</h2>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:ml-80 mt-20'>
+            <div>
+                <img className='w-[350px] mx-auto project-image' src={img1} alt="" />
+                <h3 className="text-xl">Comfort Life</h3>
+                <p>Comfort Life is a website where people can buy and sell Second Hand products.</p>
+            </div>
+            <div>
+                <img className='w-[350px] mx-auto project-image' src={img2} alt="" />
+                <h3 className="text-xl">Zidans Home Kitchen</h3>
+                <p>Zidans Home Kitchen is a personal business website</p>
+            </div>
+            <div>
+                <img className='w-[350px] mx-auto project-image' src={img3} alt="" />
+                <h3 className="text-xl">Code Easy</h3>
+                <p>Code Ease is a online learning platform</p>
+            </div>
+        </div>
+    </div>
+);
 
 export default Home;

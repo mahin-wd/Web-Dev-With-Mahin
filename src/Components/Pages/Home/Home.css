@@ -1,4 +1,6 @@
-.btn-hover{
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap');
+
+.btn-hover {
     transition: 0.2s ease-in-out;
 }
 
@@ -8,10 +10,22 @@
     filter: drop-shadow(0 0 3px #5bc5f4);
 }
 
-.image{
+.image {
     transition: 0.2s ease-in-out;
 }
 
-.image:hover{
+.project-image {
+    transition: 0.2s ease-in-out;
+}
+
+.project-image:hover {
+    width: 360px
+}
+
+.image:hover {
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.63));
+}
+
+.name-text {
+    font-family: 'Oleo Script', cursive;
 }
