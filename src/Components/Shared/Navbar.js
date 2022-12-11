@@ -19,6 +19,7 @@ const Navbar = () => {
                 <Link className='text-2xl lg:text-4xl font-semibold text-start pl-20 w-80 py-5 text-white' to="/skills">Skills</Link>
                 <Link className='text-2xl lg:text-4xl font-semibold text-start pl-20 w-80 py-5 text-white' to="/projects">Projects</Link>
                 <Link className='text-2xl lg:text-4xl font-semibold text-start pl-20 w-80 py-5 text-white' to="/about">About</Link>
+                <Link className='text-2xl lg:text-4xl font-semibold text-start pl-20 w-80 py-5 text-white' to="/blog">Blog</Link>
                 <Link className='text-2xl lg:text-4xl font-semibold text-start pl-20 w-80 py-5 text-white' to="/contact">Contact Me</Link>
 
                 <div className=' flex justify-center absolute bottom-5 left-0 right-0'>

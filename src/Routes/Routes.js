@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import About from "../Components/Pages/About/About";
+import Blog from "../Components/Pages/Blog/Blog";
 import Contact from "../Components/Pages/Contact/Contact";
 import Error from "../Components/Pages/Error/Error";
 import Home from "../Components/Pages/Home/Home";
@@ -46,6 +47,10 @@ import Main from "../Layout/Main";
             {
                 path: "/contact",
                 element: <Contact />
+            },
+            {
+                path: "/blog",
+                element: <Blog />
             },
             {
                 path: "*",
