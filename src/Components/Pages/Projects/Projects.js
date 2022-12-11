@@ -7,7 +7,7 @@ import page7 from '../../../images/code easy/page7.jpg'
 const Projects = () => {
     return (
         <div className='pt-20 font-semibold pb-20'>
-            <h3 className='text-4xl text-[#5bc5f4] lg:ml-80 mb-40'>My Projects</h3>
+            <h3 className='text-4xl text-[#5bc5f4] lg:ml-80 mb-40 font-semibold'>My Projects</h3>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:ml-80'>
                 <div className='mt-5'>
                     <img className='w-[350px] mx-auto project-image' src={page1} alt="" />

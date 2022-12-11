@@ -22,7 +22,7 @@ const Navbar = () => {
                 <Link className='text-2xl lg:text-4xl font-semibold text-start pl-20 w-80 py-5 text-white' to="/contact">Contact Me</Link>
 
                 <div className=' flex justify-center absolute bottom-5 left-0 right-0'>
-                    <a target="_blank" href="https://github.com/mahin-wd">
+                    <a target="_blank" href="https://github.com/wd-mahin">
                         <FaGithub className='mx-5 text-3xl' />
                     </a>
                     <a target="_blank" href="https://www.linkedin.com/in/wd-mahin/">
