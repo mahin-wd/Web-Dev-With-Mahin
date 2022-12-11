@@ -5,6 +5,7 @@ import './Home.css'
 import img1 from '../../../images/comfortLife.jpg'
 import img2 from '../../../images/zidansHomeKitchen.jpg'
 import img3 from '../../../images/codeEasy.jpg'
+import { Link } from 'react-router-dom';
 
 const Home = () => (
     <div>
@@ -35,7 +36,7 @@ const Home = () => (
 
         {/* Basic Projects */}
             <h2 className="text-3xl lg:ml-80 mt-40">Projects I have Build</h2>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:ml-80 mt-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:ml-80 mt-20 mb-10'>
             <div>
                 <img className='w-[350px] mx-auto project-image' src={img1} alt="" />
                 <h3 className="text-xl">Comfort Life</h3>
@@ -52,6 +53,9 @@ const Home = () => (
                 <p>Code Ease is a online learning platform</p>
             </div>
         </div>
+
+        <Link className='bg-transparent border border-[#5bc5f4] text-[#5bc5f4] px-5 py-3 ml-80 text-xl rounded-lg' to="/projects">See More</Link>
+
     </div>
 );
 
